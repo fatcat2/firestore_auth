@@ -2,11 +2,12 @@
 
 from distutils.core import setup
 
-setup(name='Firestore auth function',
-      version='1.0',
-      description='Python Distribution Utilities',
-      author='Greg Ward',
-      author_email='gward@python.net',
-      url='https://www.python.org/sigs/distutils-sig/',
-      packages=['distutils', 'distutils.command'],
-     )
+setup(
+        name='Firestore auth function',
+        version='0.0.1',
+        description='Firestore user authentication function for Python',
+        author='Ryan Chen',
+        author_email='ryanjchen2@gmail.com',
+        url='https://github.com/fatcat2/firestore-auth',
+        packages=['firestore_auth'],
+)

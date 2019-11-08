@@ -15,7 +15,7 @@ def lint(session):
     """
     session.install("flake8", "black")
     session.install("-r", "requirements.txt")
-    session.run("black", "--check", *BLACK_PATHS)
+    session.run("black", "--check", "-l", "79", *BLACK_PATHS)
     session.run("flake8", *BLACK_PATHS)
 
 
@@ -24,7 +24,7 @@ def blacken(session):
     """Run black.
     """
     session.install("black")
-    session.run("black", *BLACK_PATHS)
+    session.run("black", "-l", "79", *BLACK_PATHS)
 
 
 def default(session):

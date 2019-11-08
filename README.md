@@ -1,5 +1,6 @@
 # firestore-auth
 [![Build Status](https://travis-ci.com/fatcat2/firestore_auth.svg?branch=master)](https://travis-ci.com/fatcat2/firestore_auth)
+[![codecov](https://codecov.io/gh/fatcat2/firestore_auth/branch/master/graph/badge.svg)](https://codecov.io/gh/fatcat2/firestore_auth)
 
 An authentication function with Google Firestore.
 

@@ -2,15 +2,9 @@
 
 from distutils.core import setup
 
-# read the contents of your README file
-from os import path
-this_directory = path.abspath(path.dirname(__file__))
-with open(path.join(this_directory, 'README.md'), encoding='utf-8') as f:
-    long_description = f.read()
-
 setup(
         name='firestore user authentication',
-        version='0.0.1',
+        version='0.0.3',
         license="GNU",
         description='Firestore user authentication function for Python',
         author='Ryan Chen',
@@ -19,7 +13,7 @@ setup(
         packages=['firestore_auth'],
         keywords=["google", "cloud", "firestore", "authentication"],
         install_requires=["google-cloud-firestore"],
-        long_description=long_description,
+        long_description=open("README.md").read(),
         long_description_content_type='text/markdown',
         classifiers=[
             'Development Status :: 3 - Alpha',

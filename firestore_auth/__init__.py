@@ -1,1 +1,1 @@
-from .auth import authenticate
+from .auth import authenticate  # noqa

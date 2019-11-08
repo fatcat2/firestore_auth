@@ -5,5 +5,8 @@ python:
 install:
   - pip install -r requirements.txt
   - pip install nox
+  - pip install codecov
 # command to run tests
-script: nox
+script: 
+  - nox
+  - codecov
